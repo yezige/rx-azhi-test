@@ -1,0 +1,6 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+  <prescription type="service" class="com.sina.weibo/.business.WeiboRemoteServiceHolder" sender="any"/>
+  <prescription type="service" class="com.sina.weibo/.business.ImageUtilService" sender="any"/>
+  <prescription type="service" class="com.sina.weibo/.business.ImageViewerService" sender="any"/>
+  <prescription type="service" class="com.sina.weibo/.business.PushDataCenter" sender="any"/>
+</prescriptions>
