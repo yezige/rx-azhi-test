@@ -1,4 +1,4 @@
-<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v1">
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v2">
   <prescription type="service" package="com.tencent.mm" sender="any">
     <intent-filter>
       <service name="com.tencent.mm.booter.NotifyReceiver$NotifyService"/>
