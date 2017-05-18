@@ -1,6 +1,8 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
-  <prescription type="service" class="com.sina.weibo/.business.WeiboRemoteServiceHolder" sender="any"/>
-  <prescription type="service" class="com.sina.weibo/.business.ImageUtilService" sender="any"/>
-  <prescription type="service" class="com.sina.weibo/.business.ImageViewerService" sender="any"/>
-  <prescription type="service" class="com.sina.weibo/.business.PushDataCenter" sender="any"/>
+  <prescription type="service" package="com.tencent.mm" sender="any">
+    <intent-filter>
+      <service name="com.tencent.mm.booter.NotifyReceiver$NotifyService"/>
+    </intent-filter>
+  </prescription>
+  <prescription type="service" package="com.sina.weibo" sender="any"/>
 </prescriptions>
